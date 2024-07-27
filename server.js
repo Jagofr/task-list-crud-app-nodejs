@@ -1,5 +1,6 @@
 // Import Node.js core module i.e http
 const http = require('http');
+const routeList = require('./server/routes');
 
 // Create web server
 const server = http.createServer(function (req, res) {
